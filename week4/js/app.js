@@ -19,7 +19,7 @@ function createScene() {
   light.intensity = 0.7;
 
   // EXPERIMENT HERE. Change one value, predict the result, save, and reload.
-  const sphere = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 2, segments: 32 }, scene);
+  const sphere = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 3, segments: 32 }, scene);
   sphere.position.y = 1;
   const ground = BABYLON.MeshBuilder.CreateGround("ground", { width: 6, height: 6 }, scene);
 

@@ -1,22 +1,26 @@
 Week 4 experiments
-Pathway:
+Pathway: P1 Company Blog
 Website / 3D page:
+https://anguyen0344.github.io/Week-4-Project/
+https://anguyen0344.github.io/Week-4-Project/week4/3d.html
 
 Experiment
-What I expected:
-File and code/value I changed:
-What I observed (or exact error):
-What I kept, restored, or corrected:
-My next test:
+What I expected: I expected the sphere to appear larger.
+File and code/value I changed: In week4/js/app.js, I changed the sphere diameter from 2 to 3.
+What I observed (or exact error): The sphere appeared larger, and the 3D scene continued to work.
+What I kept, restored, or corrected: I kept the diameter at 3 and did not change the Babylon.js vendor file.
+My next test: Test whether changing the light intensity makes the scene brighter.
 
 Changes I made:
+Changed the sphere diameter from 2 to 3.
 
 Future tests and ideas:
+Change the light intensity from 0.7 to 1.0 and compare the result.
 
 Final checks
-Website -> 3D page -> website:
-Scene and description agree:
-Narrow and wide layout:
-Keyboard navigation:
-Console errors / unresolved issues:
-Peer observation and correction:
+Website -> 3D page -> website: Passed
+Scene and description agree: Passed
+Narrow and wide layout: Not tested yet
+Keyboard navigation: Not tested yet
+Console errors / unresolved issues: None observed
+Peer observation and correction: Pending peer check: My classmate tested the Home Page and sphere, ground, camera controls, and Reset. No correction was needed.
