@@ -23,4 +23,29 @@ Scene and description agree: Passed
 Narrow and wide layout: Not tested yet
 Keyboard navigation: Not tested yet
 Console errors / unresolved issues: None observed
-Peer observation and correction: Pending peer check: My classmate tested the Home Page and sphere, ground, camera controls, and Reset. No correction was needed.
+Peer observation and correction: Pending peer check: My classmate tested the Home Page
+4B Company Blog Experiment
+
+What I expected:
+I expected the Company Blog section to appear on the Home page and the 3D sphere to change to blue.
+
+Files and code I changed:
+In index.html, I added the Civic Archive Technologies Company Blog.
+In week4/js/app.js, I added a blue material, a Company Blog console message, and a visible status message.
+
+What I observed:
+The Company Blog appeared on the Home page. The 3D page displayed a blue sphere and the message “Company Blog 3D view: Archive core ready.”
+
+What I kept or corrected:
+I kept the Company Blog content and the blue archive-core sphere because both worked correctly.
+
+My next test:
+Test the Home and 3D links, Reset View button, narrow and wide layouts, keyboard navigation, and browser console.
+
+Changes I made:
+Added Company Blog text.
+Changed the sphere color to blue.
+Updated the console and visible status messages.
+
+Future tests and ideas:
+Add another 3D archive object or improve the Company Blog design. and sphere, ground, camera controls, and Reset. No correction was needed.

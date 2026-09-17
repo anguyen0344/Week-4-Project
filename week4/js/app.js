@@ -21,6 +21,15 @@ function createScene() {
   // EXPERIMENT HERE. Change one value, predict the result, save, and reload.
   const sphere = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 3, segments: 32 }, scene);
   sphere.position.y = 1;
+  const archiveMaterial = new BABYLON.StandardMaterial(
+  "archiveMaterial",
+  scene
+);
+
+archiveMaterial.diffuseColor =
+  new BABYLON.Color3(0.15, 0.65, 0.85);
+
+sphere.material = archiveMaterial;
   const ground = BABYLON.MeshBuilder.CreateGround("ground", { width: 6, height: 6 }, scene);
 
   // Optional extension: add a differently named object and give it its own position.
@@ -46,8 +55,10 @@ try {
   resetButton.disabled = false;
 
   // INTRO PRACTICE: replace these messages with your own accurate context.
-  console.log("Week 4: sphere and ground scene loaded.");
-  statusText.textContent = "Scene ready: a sphere on a ground plane.";
+ console.log("Company Blog: Civic Archive 3D core loaded.");
+
+statusText.textContent =
+  "Company Blog 3D view: Archive core ready.";
 } catch (error) {
   if (engine) engine.dispose();
   canvas.hidden = true;
